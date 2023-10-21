@@ -1,0 +1,2 @@
+import{useState as r}from"react";import{Input as e,Button as n}from"@chakra-ui/react";import{jsxs as t,jsx as o}from"react/jsx-runtime";var a=function(){var a=r(""),i=a[1];/*#__PURE__*/return t("div",{children:[/*#__PURE__*/o(e,{value:a[0],onChange:function(r){return i(r.target.value)}}),/*#__PURE__*/o(n,{onClick:function(){return alert("Good One")},children:"Send"})]})};export{a as Kolo};
+//# sourceMappingURL=Olo.module.js.map

@@ -1,0 +1,16 @@
+{
+  "name": "olo",
+  "type": "module",
+  "source": "src/Olo.js",
+  "exports": {
+    "require": "./dist/Olo.cjs",
+    "default": "./dist/Olo.modern.js"
+  },
+  "main": "./dist/Olo.cjs",
+  "module": "./dist/Olo.module.js",
+  "unpkg": "./dist/Olo.umd.js",
+  "scripts": {
+    "build": "microbundle --jsx React.createElement --jsxFragment React.Fragment --jsxImportSource react",
+    "dev": "microbundle watch"
+  }
+}
